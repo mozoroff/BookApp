@@ -19,55 +19,25 @@
 </head>
 
 <body>
-    <h1>Library Explore</h1>
+    <h1 class="p-5 text-center headline">Library Explore</h1>
 
     <div class="container">
         <div class="row height d-flex justify-content-center align-items-center">
             <div class="col-md-8">
-                <div class="search"> <i class="fa fa-search"></i> 
-                    <input type="text" id="isbn-search" class="form-control" placeholder="Search">
-                    <button class="btn btn-primary" id="isbn-search-btn" >Search</button>
+                <div class="search"> <i class="fa fa-search"></i>
+                    <input type="text" id="isbn-search" class="form-control" placeholder="ISBN Search" value="0451526538">
+                    <button class="btn btn-primary" id="isbn-search-btn">Search</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="">
+    <div class="text-center p-5 headline">
         <h2>result</h2>
     </div>
 
-    <div class="container">
-        <div class="row border rounded px-5 my-5 bg-white shadow-2-strong ">
-            <div class="mt-5 col">
-                <div class="" id="">
-                    <h2>title</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, quaerat debitis dolores unde
-                        temporibus
-                        asperiores dolore molestias provident necessitatibus sed labore excepturi explicabo sequi porro
-                        eligendi
-                        maiores repellat. Rem, nam.</p>
-                </div>
-                <table class="table table-striped">
-                    <thead class="row">
-                        <tr>
-                            <th scope="col-4">#</th>
-                            <th scope="col-4">First</th>
-                            <th scope="col-4">Last</th>
-                            <th scope="col-4">Handle</th>
-                        </tr>
-                    </thead>
-                    <tbody class="row">
-                        <tr>
-                            <th scope="col-4">1</th>
-                            <td>Mark</td>
-                            <td>Otto</td>
-                            <td>@mdo</td>
-                        </tr>
 
-                    </tbody>
-                </table>
-            </div>
-        </div>
+    <div id="book-cards"></div>
 
     </div>
     <script type="text/javascript" src="/source.js"></script>
